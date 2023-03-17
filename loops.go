@@ -1,13 +1,11 @@
-package main
-import (
-    "fmt"
-)
-func main() {
-    // define array
-    a := []int{1, 2, 3, 4, 5, 6}
+// Make a program that counts from 1 to 10.
 
-    // loop over array
-    for i := 0; i < len(a); i = i +1 {
-        fmt.Println("character :", a[i])
-    }
+package main
+
+import "fmt"
+
+func main() {
+   for x := 1; x <= 10; x++ {
+        fmt.Printf("iteration x: %d\n", x)
+   }
 }
